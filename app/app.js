@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.home',
-  'myApp.intuitive_eating',
+  'myApp.melt',
   'myApp.about',
   'myApp.contact',
   'myApp.services',
