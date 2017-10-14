@@ -1,21 +1,16 @@
 'use strict';
 
-angular.module('myApp.services', ['ngRoute'])
+angular.module('coachKristi.services', ['ngRoute'])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/services', {
-    templateUrl: 'services/services.html',
-    controller: 'ServicesController'
-  });
-}])
+    .config(['$routeProvider', function ($routeProvider) {
+      $routeProvider.when('/services', {
+        templateUrl: 'services/services.html',
+        controller: 'ServicesController'
+      });
+    }])
 
-.controller('ServicesController', SettingsController1);
+    .controller('ServicesController', ServicesController);
 
 
-function SettingsController1() {
-    this.name = 'John Smith';
-    this.contacts = [
-        {type: 'phone', value: '408 555 1212'},
-        {type: 'email', value: 'john.smith@example.org'}
-    ];
+function ServicesController() {
 }

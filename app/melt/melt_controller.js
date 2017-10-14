@@ -1,21 +1,15 @@
 'use strict';
 
-angular.module('myApp.melt', ['ngRoute'])
+angular.module('coachKristi.melt', ['ngRoute'])
 
-   .config(['$routeProvider', function($routeProvider) {
-     $routeProvider.when('/melt', {
-       templateUrl: 'melt/melt.html',
-       controller: 'MeltCtrl'
-     });
-   }])
+    .config(['$routeProvider', function ($routeProvider) {
+      $routeProvider.when('/melt', {
+        templateUrl: 'melt/melt.html',
+        controller: 'MeltController'
+      });
+    }])
 
-   .controller('MeltCtrl', MeltController);
+    .controller('MeltController', MeltController);
 
 
-function MeltController() {
-  this.name = 'John Smith';
-  this.contacts = [
-    {type: 'phone', value: '408 555 1212'},
-    {type: 'email', value: 'john.smith@example.org'}
-  ];
-}
+function MeltController() {}

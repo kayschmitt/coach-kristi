@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "coach-kristi",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "A site for Kriti Schmitt Life Coaching",
+  "repository": "https://github.com/kayschmitt/coach-kristi",
   "license": "MIT",
   "devDependencies": {
     "angular-ui-bootstrap": "^2.5.0",

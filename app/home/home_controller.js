@@ -1,14 +1,15 @@
 'use strict';
 
-angular.module('myApp.home', ['ngRoute'])
+angular.module('coachKristi.home', ['ngRoute'])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/home', {
-    templateUrl: 'home/home.html',
-    controller: 'HomeController'
-  });
-}])
+    .config(['$routeProvider', function ($routeProvider) {
+      $routeProvider.when('/home', {
+        templateUrl: 'home/home.html',
+        controller: 'HomeController'
+      });
+    }])
 
-.controller('HomeController', [function() {
+    .controller('HomeController', HomeController);
 
-}]);
+function HomeController() {
+}

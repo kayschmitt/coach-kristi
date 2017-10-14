@@ -1,14 +1,15 @@
 'use strict';
 
-angular.module('myApp.contact', ['ngRoute'])
+angular.module('coachKristi.contact', ['ngRoute'])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/contact', {
-    templateUrl: 'contact/contact.html',
-    controller: 'ContactCtrl'
-  });
-}])
+    .config(['$routeProvider', function ($routeProvider) {
+      $routeProvider.when('/contact', {
+        templateUrl: 'contact/contact.html',
+        controller: 'ContactController'
+      });
+    }])
 
-.controller('ContactCtrl', ContactController);
+    .controller('ContactController', ContactController);
 
-function ContactController() {}
+function ContactController() {
+}
