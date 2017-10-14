@@ -1,0 +1,123 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.logo-img {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 160px;
+}
+
+.newport-img {
+  width: 100%;
+  height: 100%;
+}
+
+.test-mg {
+  -webkit-filter: blur(1.2px); /* Safari */
+  filter: blur(1.2px);
+}
+
+
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+
+.newport-box {
+  position: relative;
+}
+
+.caption {
+  color: white !important;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+}
+
+.btn-default {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: white !important;
+  border-width: 3px !important;
+  font-size: 20px !important;
+}
+
+.quote {
+  margin-bottom: 30px;
+}
+
+.kristi-img {
+  width: 300px;
+  height: auto;
+    float:left;
+    padding-right: 10px;
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 0 !important;
+}
+
+
+@media only screen and (max-width: 846px) {
+  .caption {
+    font-size: 20px;
+  }
+  .quote {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  .caption {
+    font-size: 15px;
+  }
+
+  .btn-default {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .caption {
+    top: 10%;
+  }
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
