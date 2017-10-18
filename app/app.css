@@ -57,7 +57,7 @@
   color: white !important;
   font-size: 30px;
   position: absolute;
-  
+
   top: 10%;
   left: 10%;
   right: 10%;
@@ -142,6 +142,10 @@
   }
 }
 
+.kristi-container {
+  margin-bottom: 40px;
+}
+
 
 
 @media (min-width: 1200px) {
@@ -168,4 +172,56 @@ h3 {
 
 .services-extra {
   margin-top: 20px;
+}
+
+
+#kristi-footer {
+  background-color: #87BFC7;
+  color: white;
+  padding-top: 10px;
+}
+
+#kristi-footer .footer-copyright {
+  background-color: #564E58;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+}
+
+#kristi-footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#kristi-footer a {
+  color: #56494C;
+  text-decoration: none;
+}
+
+#kristi-footer .footer-copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-footer {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#kristi-footer a:hover,
+#kristi-footer a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1115px) {
+  .nav-footer {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+.contact-kristi {
+  padding-bottom: 5px;
 }
